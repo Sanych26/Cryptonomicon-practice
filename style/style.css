@@ -1,0 +1,50 @@
+h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.planner-cont  {
+    width: 100%;
+    max-width: 875px;
+}
+
+.planner-cont .new_plane {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.planner-cont input {
+    width: 80%;
+    height: 30px;
+    display: block;
+    padding: 0 15px;
+    margin: 25px 0;
+}
+
+.planner-cont button {
+    height: 35px;
+}
+
+.planner-cont hr {
+    width: 100%;
+}
+
+.btn-done-plane {
+    cursor: pointer;
+}
+
+.pagination {
+    width: 240px;
+    display: flex;
+}
+.filter-item {
+    margin: 0 15px;
+}
+.visible {
+    visibility: initial!important;
+}
+.hiden {
+    visibility: hidden;
+}
